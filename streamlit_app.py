@@ -1,1 +1,1 @@
-create the main python file
+print("hello world")
