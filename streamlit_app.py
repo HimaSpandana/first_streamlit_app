@@ -48,10 +48,6 @@ streamlit.text("The fruit load list contains")
 streamlit.text(my_data_row)
 
 
-
-
-
-
 #chose the fruit name column as index
 #Display table on the page
 #streamlit.dataframe(my_fruit_list)
