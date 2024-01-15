@@ -46,6 +46,12 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
+
+fruit_choice = streamlit.text_input('What fruit would you like to add?','Jackfruit')
+streamlit.write('Thanks for adding Jackfruit ')
+
+
+
 #chose the fruit name column as index
 #Display table on the page
 #streamlit.dataframe(my_fruit_list)
