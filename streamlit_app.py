@@ -50,6 +50,8 @@ streamlit.dataframe(my_data_rows)
 fruit_choice = streamlit.text_input('What fruit would you like to add?','Jackfruit')
 streamlit.write('Thanks for adding Jackfruit ')
 
+#This will not work correctly but just go with it now
+my_cur.execute("insert into fruit_load_list values('from streamlit')")
 
 
 #chose the fruit name column as index
